@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details - Footwear Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .product-detail {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        .product-detail img {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+
+        .product-detail h2 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .product-detail p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .product-detail select {
+            padding: 8px;
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .product-detail button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .product-detail button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Footwear Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#men">Men</a></li>
+                <li><a href="#women">Women</a></li>
+                <li><a href="#kids">Kids</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-detail">
+        <img src="running-shoes.jpg" alt="Men's Running Shoes">
+        <h2>Men's Running Shoes</h2>
+        <p>$59.99</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet nisi id nulla fermentum efficitur. Donec vel tellus sed velit tempor viverra ac a nisi. Phasellus iaculis tincidunt massa, id fringilla erat consequat quis.</p>
+        <p>Size: <select>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select></p>
+        <button>Add to Cart</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Footwear Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
